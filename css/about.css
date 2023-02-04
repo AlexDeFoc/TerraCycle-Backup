@@ -41,6 +41,7 @@ body
 
 .img-about
 {
+    min-height: 75rem;
     height: 75rem;
     width: 50vw;
     background-color: black;
