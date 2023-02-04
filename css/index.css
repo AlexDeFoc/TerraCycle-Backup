@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap');
+:root
+{
+    /* Defaults */
+    font-size: 62.5%;
+
+    /* Variables */
+    --font-medium : 500;
+    --font-large : 700;
+}
+
+body
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: var(--font-medium);
+}
+
+.navbar-brand
+{
+    font-size: 4rem;
+    font-weight: var(--font-large);
+}
+
+.nav-item
+{
+    font-size: 3rem;
+}
+
+.carousel-item
+{
+    height: 55rem;
+    background-color: #000;
+    color: white;
+    position: relative;
+}
+
+.carousel-item .container
+{
+    padding-bottom: 3rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 10rem;
+}
+
+.carousel-item .overlay-image
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.carousel-item:nth-child(1) .overlay-image
+{
+    background-image: url(/img/carousel-image-1.jpg);
+}
+.carousel-item:nth-child(2) .overlay-image
+{
+    background-image: url(/img/carousel-image-2.jpg);
+}
+.carousel-item:nth-child(3) .overlay-image
+{
+    background-image: url(/img/carousel-image-3.jpg);
+}
+
+.carousel-item .container h1
+{
+    font-size: 5rem;
+    font-weight: var(--font-large);
+}
+
+.carousel-item .container p
+{
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+.carousel-item .container .btn
+{
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+    font-weight: var(--font-large);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
