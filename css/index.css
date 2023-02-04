@@ -99,3 +99,61 @@ body
     font-size: 2rem;
     font-weight: var(--font-medium);
 }
+
+.company-name
+{
+    font-size: 2rem;
+}
+
+.company-description
+{
+    font-size: 1.4rem;
+}
+
+.useful-links-title
+{
+    font-size: 2rem;
+    font-weight: var(--font-large);
+}
+
+.useful-link
+{
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.contact-title 
+{
+    font-size: 2rem;
+    font-weight: var(--font-large);
+}
+
+.contact-text-location
+{
+    font-size: 1.4rem;
+    font-weight: var(--font-large);
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+.contact-text-gmail
+{
+    font-size: 1.4rem;
+    font-weight: var(--font-large);
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+.contact-text-call
+{
+    font-size: 1.4rem;
+    font-weight: var(--font-large);
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+.copyright-text
+{
+    font-size: 1.1rem;
+    font-weight: var(--font-large);
+}
