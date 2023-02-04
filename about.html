@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/about.css">
     <title>Home</title>
 </head>
 <body>
@@ -20,13 +20,13 @@
                 <div class="collapse navbar-collapse justify-content-end" id="nav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="#" class="nav-link active" aria-current="page">Acasă</a>
+                            <a href="index.html" class="nav-link" aria-current="page">Acasă</a>
                         </li>
                         <li class="nav-item ms-md-5 me-md-5">
                             <a href="#" class="nav-link">Servicii</a>
                         </li>
                         <li class="nav-item">
-                            <a href="about.html" class="nav-link">Despre</a>
+                            <a href="#" class="nav-link active">Despre</a>
                         </li>
                     </ul>
                 </div>
@@ -35,54 +35,49 @@
     </header>
 
     <main>
-        <div id="HomeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#HomeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#HomeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#HomeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-    
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="12000">
-                    <div class="overlay-image"></div>
-                    <div class="container">
-                        <h1>Copacii</h1>
-                        <p>Sursa primară de oxigen. Trebuie protejată!</p>
-                        <a href="#" class="btn btn-lg btn-success">
-                            Citește mai mult
-                        </a>
-                    </div>
+        <div class="container">
+            <!-- Despre compania noastra -->
+            
+            <div class="row mb-4"><p class="administrators-title">Despre firma noastră</p></div>
+            
+            <div class="about-us d-flex row">
+                <div class="img-about col">
+                    <div class="overlay"></div>
+                    <div class="image"></div>
                 </div>
-                <div class="carousel-item" data-bs-interval="8000">
-                    <div class="overlay-image"></div>
-                    <div class="container">
-                        <h1>Pământul</h1>
-                        <p>Locul de unde hrana provine. Acesta trebuie îngrijit și ferit de gunoi!</p>
-                        <a href="#" class="btn btn-lg btn-success">
-                            Citește mai mult
-                        </a>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="8000">
-                    <div class="overlay-image"></div>
-                    <div class="container">
-                        <h1>Animalele</h1>
-                        <p>Sunt și ele ființe! Acestea merită să trăiască într-un mediu optim!</p>
-                        <a href="#" class="btn btn-lg btn-success">
-                            Citește mai mult
-                        </a>
-                    </div>
+                <div class="text col ms-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nihil sequi officia exercitationem odio obcaecati dolorem dolor ipsam ex. Quis saepe blanditiis odit assumenda perferendis magni possimus error voluptatum, tempore facilis amet fugit ipsum. Exercitationem quibusdam deleniti alias molestias, vel corporis, velit aspernatur laudantium voluptas, voluptatibus architecto placeat id? Quae, dolore ipsum nostrum similique incidunt voluptates fugit et, facere sed nesciunt asperiores ratione! At minima, voluptate eligendi ducimus in adipisci voluptates amet! Eius optio cupiditate doloribus cum quod eos qui suscipit repudiandae vel nihil officia porro sapiente dolore odio minus magnam consectetur, fuga ipsum laudantium labore ullam ipsam dolorem corporis? Aliquam ex, nihil ducimus animi at consequuntur, porro nisi pariatur voluptatem iure quo, possimus atque. Blanditiis facilis animi nihil inventore repellat quos, eum, voluptates ab, alias sunt maiores magnam consequuntur molestiae natus aperiam dolor tempora pariatur harum perspiciatis dolore labore quaerat quod vitae! Atque eos error magni molestiae perferendis eveniet, harum qui at ex ipsum ullam beatae adipisci eius. Distinctio nobis laboriosam eius beatae quisquam sed error odio perspiciatis voluptatibus. Asperiores, facere molestiae! Beatae laboriosam blanditiis cumque rerum quidem, corrupti, voluptatibus ipsam eaque illum ad obcaecati! Deleniti architecto earum magnam nihil. Vitae at maxime illo sit neque. Voluptate, neque natus.
                 </div>
             </div>
-    
-            <button class="carousel-control-prev" type="button" data-bs-target="#HomeCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#HomeCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+        </div>
+
+        <div class="container">
+            <!-- Administratorii -->
+
+            <div class="row mb-4"><p class="administrators-title">Administratorii firmei</p></div>
+            
+            <div class="administrators row">
+                <div class="profile col d-flex align-items-center flex-column flex-nowrap">
+                    <div class="icon row"></div>
+                    <div class="name mt-2 row"><p>Ciubotaru Maria</p></div>
+                </div>
+                <div class="profile col d-flex align-items-center flex-column flex-nowrap">
+                    <div class="icon row"></div>
+                    <div class="name mt-2 row"><p>Mazniuc Petru</p></div>
+                </div>
+                <div class="profile col d-flex align-items-center flex-column flex-nowrap">
+                    <div class="icon row"></div>
+                    <div class="name mt-2 row"><p>Moisuc Teodora</p></div>
+                </div>
+                <div class="profile col d-flex align-items-center flex-column flex-nowrap">
+                    <div class="icon row"></div>
+                    <div class="name mt-2 row"><p>Nistoreanu Maria</p></div>
+                </div>
+                <div class="profile col d-flex align-items-center flex-column flex-nowrap">
+                    <div class="icon row"></div>
+                    <div class="name mt-2 row"><p>Scafaru Bianca</p></div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -131,10 +126,6 @@
                   
                   <p>
                     <a href="#" class="useful-link text-reset">Servicii</a>
-                  </p>
-
-                  <p>
-                    <a href="about.html" class="useful-link text-reset">Despre</a>
                   </p>
 
                   <p>
