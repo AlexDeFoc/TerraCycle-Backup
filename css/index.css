@@ -91,3 +91,11 @@ body
     justify-content: center;
     align-items: center;
 }
+
+/* Footer */
+
+.social-text
+{
+    font-size: 2rem;
+    font-weight: var(--font-medium);
+}
