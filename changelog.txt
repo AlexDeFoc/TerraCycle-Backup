@@ -1,2 +1,3 @@
 1.Tried to make loading images faster
 2. Might need to change from css image loading to html image loading (for utilizing the actual lazy loading and async decoding)
+3. ERROR : Images (on articles) dont load
