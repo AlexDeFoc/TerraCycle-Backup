@@ -1,2 +1,1 @@
-1. Made the pictures in all articles brighter (opacity)
-2. Changed the whole css and html tree folders for articles, + modified the path in index for the articles buttons.
+1. animalele-D06-02-2023.css had only goose pic
