@@ -111,17 +111,29 @@ body
 
 .img-1
 {
+<<<<<<<< HEAD:css/articles/copacii-D02-06-2023/pamantul-D02-06-2023.css
     background-image: url(/img/articles/2023/06-2023/D02-06-2023/pamantul-D02-06-2023/image-1.png);
+========
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/copacii-D02-06-2023/image-1.png);
+>>>>>>>> parent of 6543972 (.):css/articles/copacii-D02-06-2023/copacii-D02-06-2023.css
 }
 
 .img-2
 {
+<<<<<<<< HEAD:css/articles/copacii-D02-06-2023/pamantul-D02-06-2023.css
     background-image: url(/img/articles/2023/06-2023/D02-06-2023/pamantul-D02-06-2023/image-2.png);
+========
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/copacii-D02-06-2023/image-2.png);
+>>>>>>>> parent of 6543972 (.):css/articles/copacii-D02-06-2023/copacii-D02-06-2023.css
 }
 
 .img-3
 {
+<<<<<<<< HEAD:css/articles/copacii-D02-06-2023/pamantul-D02-06-2023.css
     background-image: url(/img/articles/2023/06-2023/D02-06-2023/pamantul-D02-06-2023/image-3.png);
+========
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/copacii-D02-06-2023/image-3.png);
+>>>>>>>> parent of 6543972 (.):css/articles/copacii-D02-06-2023/copacii-D02-06-2023.css
 }
 
 .icon

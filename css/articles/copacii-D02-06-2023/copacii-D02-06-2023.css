@@ -97,19 +97,69 @@ body
     background-size: cover;
 }
 
+<<<<<<< HEAD
 .img-1
 {
+<<<<<<<< HEAD:css/articles/copacii-D02-06-2023/copacii-D02-06-2023.css
     background-image: url(/img/articles/2023/06-2023/D02-06-2023/copacii-D02-06-2023/image-1.png);
+========
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/pamantul-D02-06-2023/image-1.png);
+>>>>>>>> parent of 6543972 (.):css/articles/copacii-D02-06-2023/pamantul-D02-06-2023.css
+=======
+.img .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.85;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-1
+{
+<<<<<<<< HEAD:css/articles/copacii-D02-06-2023/pamantul-D02-06-2023.css
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/pamantul-D02-06-2023/image-1.png);
+========
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/copacii-D02-06-2023/image-1.png);
+>>>>>>>> parent of 6543972 (.):css/articles/copacii-D02-06-2023/copacii-D02-06-2023.css
+>>>>>>> parent of 6543972 (.)
 }
 
 .img-2
 {
+<<<<<<< HEAD
+<<<<<<<< HEAD:css/articles/copacii-D02-06-2023/copacii-D02-06-2023.css
     background-image: url(/img/articles/2023/06-2023/D02-06-2023/copacii-D02-06-2023/image-2.png);
+========
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/pamantul-D02-06-2023/image-2.png);
+>>>>>>>> parent of 6543972 (.):css/articles/copacii-D02-06-2023/pamantul-D02-06-2023.css
+=======
+<<<<<<<< HEAD:css/articles/copacii-D02-06-2023/pamantul-D02-06-2023.css
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/pamantul-D02-06-2023/image-2.png);
+========
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/copacii-D02-06-2023/image-2.png);
+>>>>>>>> parent of 6543972 (.):css/articles/copacii-D02-06-2023/copacii-D02-06-2023.css
+>>>>>>> parent of 6543972 (.)
 }
 
 .img-3
 {
+<<<<<<< HEAD
+<<<<<<<< HEAD:css/articles/copacii-D02-06-2023/copacii-D02-06-2023.css
     background-image: url(/img/articles/2023/06-2023/D02-06-2023/copacii-D02-06-2023/image-3.png);
+========
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/pamantul-D02-06-2023/image-3.png);
+>>>>>>>> parent of 6543972 (.):css/articles/copacii-D02-06-2023/pamantul-D02-06-2023.css
+=======
+<<<<<<<< HEAD:css/articles/copacii-D02-06-2023/pamantul-D02-06-2023.css
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/pamantul-D02-06-2023/image-3.png);
+========
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/copacii-D02-06-2023/image-3.png);
+>>>>>>>> parent of 6543972 (.):css/articles/copacii-D02-06-2023/copacii-D02-06-2023.css
+>>>>>>> parent of 6543972 (.)
 }
 
 .icon

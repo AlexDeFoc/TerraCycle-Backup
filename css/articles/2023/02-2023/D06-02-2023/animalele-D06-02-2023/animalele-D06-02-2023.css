@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap');
+:root
+{
+    /* Defaults */
+    font-size: 62.5%;
+
+    /* Variables */
+    --font-medium : 500;
+    --font-large : 700;
+    --font-X-large: 900;
+
+    --font-color-dark-green : rgb(0, 129, 0);
+    --font-color-light-green : rgb(0, 169, 0);
+}
+
+body
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: var(--font-medium);
+}
+
+.navbar-brand
+{
+    font-size: 4rem;
+    font-weight: var(--font-large);
+}
+
+.nav-item
+{
+    font-size: 3rem;
+}
+
+/* Main */
+.main-text
+{
+    text-align: justify;
+}
+
+.title-row
+{
+    margin-top: 15rem;
+}
+
+.title
+{
+    font-size: 5rem;
+    font-weight: var(--font-X-large);
+    color: var(--font-color-dark-green);
+}
+
+.sub-title
+{
+    font-size: 3.5rem;
+    font-weight: var(--font-large);
+    color: var(--font-color-light-green);
+}
+
+.content-text
+{
+    font-size: 2.5rem;
+    font-weight: var(--font-medium);
+}
+
+.author
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit-author
+{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.credit-description
+{
+    font-size: 1.4rem;
+}
+
+.img
+{
+    height: 75rem;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.img .image
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.img .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.85;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-1
+{
+    background-image: url(/img/articles/2023/02-2023/D06-02-2023/animalele-D06-02-2023/image-1.png);
+}
+
+.img-2
+{
+    background-image: url(/img/articles/2023/02-2023/D06-02-2023/animalele-D06-02-2023/image-1.png);
+
+}
+
+.img-3
+{
+    background-image: url(/img/articles/2023/02-2023/D06-02-2023/animalele-D06-02-2023/image-1.png);
+}
+
+.icon
+{
+    width: 4rem;
+    height: 4rem;
+    background-color: gray;
+    border-radius: 100%;
+    background-image: url(/img/User.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Footer */
+
+.social-text
+{
+    font-size: 2rem;
+    font-weight: var(--font-medium);
+}
+
+.company-name
+{
+    font-size: 2rem;
+}
+
+.company-description
+{
+    font-size: 1.4rem;
+}
+
+.useful-links-title
+{
+    font-size: 2rem;
+    font-weight: var(--font-large);
+}
+
+.useful-link
+{
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.contact-title 
+{
+    font-size: 2rem;
+    font-weight: var(--font-large);
+}
+
+.contact-text-location
+{
+    font-size: 1.4rem;
+    font-weight: var(--font-large);
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+.contact-text-gmail
+{
+    font-size: 1.4rem;
+    font-weight: var(--font-large);
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+.contact-text-call
+{
+    font-size: 1.4rem;
+    font-weight: var(--font-large);
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+.copyright-text
+{
+    font-size: 1.1rem;
+    font-weight: var(--font-large);
+}
+
+@media screen and (max-width: 768px)
+{
+    .content-text
+    {
+        font-size: 1.8rem;
+    }
+}
