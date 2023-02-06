@@ -86,6 +86,8 @@ body
     background-color: black;
     position: relative;
 }
+<<<<<<< HEAD:css/articles/2023/02-2023/D06-02-2023/animalele-D06-02-2023/animalele-D06-02-2023.css
+=======
 .img .image
 {
     position: absolute;
@@ -111,18 +113,20 @@ body
 
 .img-1
 {
-    background-image: url(/img/articles/2023/02-2023/D06-02-2023/pamantul-D06-02-2023/image-1.png);
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/animalele-D02-06-2023/image-1.png);
 }
 
 .img-2
 {
-    background-image: url(/img/articles/2023/02-2023/D06-02-2023/pamantul-D06-02-2023/image-2.png);
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/animalele-D02-06-2023/image-2.png);
+
 }
 
 .img-3
 {
-    background-image: url(/img/articles/2023/02-2023/D06-02-2023/pamantul-D06-02-2023/image-3.png);
+    background-image: url(/img/articles/2023/06-2023/D02-06-2023/animalele-D02-06-2023/image-3.png);
 }
+>>>>>>> parent of 6543972 (.):css/articles/copacii-D02-06-2023/animalele-D02-06-2023.css
 
 .icon
 {
