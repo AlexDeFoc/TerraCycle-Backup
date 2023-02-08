@@ -58,15 +58,15 @@ body
 
 .carousel-item:nth-child(1) .overlay-image
 {
-    background-image: url(/img/carousel-image-1.jpg);
+    background-image: url(/img/carousel-image-1.webp);
 }
 .carousel-item:nth-child(2) .overlay-image
 {
-    background-image: url(/img/carousel-image-2.jpg);
+    background-image: url(/img/carousel-image-2.webp);
 }
 .carousel-item:nth-child(3) .overlay-image
 {
-    background-image: url(/img/carousel-image-3.jpg);
+    background-image: url(/img/carousel-image-3.webp);
 }
 
 .carousel-item .container h1
