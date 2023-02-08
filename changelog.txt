@@ -1,5 +1,1 @@
-1. Added the html and css for Blog
-2. Made the photo optimizer psd project (main dir/img)
-3. Tryed optimizing the carousel images. credit : https://www.youtube.com/watch?v=bfACnNIw2qA&ab_channel=KaycinhoTheDigitalAlchemist
-4. Modified all images to be optimised
-5. Changed all css with png to webp
+1. Fix Blog "Home button nav to have a link to go to"
