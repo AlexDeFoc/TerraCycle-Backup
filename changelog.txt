@@ -1,1 +1,1 @@
-1. animalele-D06-02-2023.css had only goose pic
+1. Added the Blog button in Footer
