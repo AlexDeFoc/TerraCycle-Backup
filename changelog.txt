@@ -1,1 +1,1 @@
-1. Fix Blog "Home button nav to have a link to go to"
+1.Made almost fully the blog page (need to add the title subtitle and short start of the article text)
