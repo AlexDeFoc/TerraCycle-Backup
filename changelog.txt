@@ -1,0 +1,2 @@
+1.Made almost fully the blog page (need to add the title subtitle and short start of the article text)
+2. REVERT to before (13.2.2023)
