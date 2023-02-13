@@ -7,7 +7,6 @@
     /* Variables */
     --font-medium : 500;
     --font-large : 700;
-    --font-X-large: 900;
 }
 
 body
@@ -28,106 +27,8 @@ body
 }
 
 /* Main */
-.article-item
-{
-    width: 60%;
-}
 
-.card-img-container
-{
-    width: 20rem;
-    height: 20rem;
-}
 
-.card-img-top
-{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    border-radius: 1.25%;
-}
-
-.card-body
-{
-    width: 50%;
-    height: 100%;
-}
-
-.image
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-position: center;
-    background-size: cover;
-}
-
-.card-img-top .overlay
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.85;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1.25%;
-}
-
-.img-1
-{
-    background-image: url(/img/articles/2023/02-2023/D06-02-2023/copacii-D06-02-2023/image-1.webp);
-}
-
-.img-2
-{
-    background-image: url(/img/articles/2023/02-2023/D06-02-2023/pamantul-D06-02-2023/image-1.webp);
-}
-
-.img-3
-{
-    background-image: url(/img/articles/2023/02-2023/D06-02-2023/animalele-D06-02-2023/image-1.webp);
-}
-
-.card-footer
-{
-    background-color: #a0a8af;
-    width: 100%;
-    height: auto;
-}
-
-.card-title
-{
-    font-size: 4rem;
-    font-weight: var(--font-X-large);
-}
-
-.card-subtitle
-{
-    font-size: 2.5rem;
-    font-weight: var(--font-large);
-}
-
-.card-text
-{
-    font-size: 1.7rem;
-    font-weight: var(--font-medium);
-}
-
-.card-footer-text
-{
-    font-size: 1.35rem;
-    font-weight: var(--font-large);
-}
-
-.btn-text
-{
-    font-size: 1.4rem;
-}
 /* Footer */
 
 .social-text
