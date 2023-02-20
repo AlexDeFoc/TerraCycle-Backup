@@ -9,4 +9,4 @@ Patch:
 4.Added link for blog.html footer->asistenta link
 4.Added link for index.html footer->asistenta link
 5.Removed from blog.html nav->home: aria-current="page"
-6.TEMP UPLOAD FOR TESTING THE FORM on contact.html
+6.TEMP UPLOAD FOR TESTING THE FORM on contact.html ~~~ Merge acum (dupa test)
