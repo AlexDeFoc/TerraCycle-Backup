@@ -1,2 +1,2 @@
 1. Made the products page
-2. Added the products page link everywhere the name was before
+2. Added the products page link everywhere the name was before (now) + fixed usefull links on articles too
