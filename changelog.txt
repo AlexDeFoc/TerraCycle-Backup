@@ -1,1 +1,2 @@
-1.Added to line 40, d-flex
+1. Made the products page
+2. Added the products page link everywhere the name was before
