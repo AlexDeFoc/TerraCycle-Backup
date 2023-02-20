@@ -1,2 +1,1 @@
-1. Made the products page
-2. Added the products page link everywhere the name was before (now) + fixed usefull links on articles too
+1.Products.html -> Terracycle title now get you to home
