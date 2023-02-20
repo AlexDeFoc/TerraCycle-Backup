@@ -37,29 +37,40 @@
     <main>
       <div class="main-container">
         <div class="overlay-image"></div>
-        <div class="container content-container d-flex justify-content-center align-items-center flex-column">
-          <div class="container form-box bg-dark d-flex justify-content-center align-items-center d-flex flex-row">
-            <div class="divider-1 d-flex flex-column">
-              <div class="row d-flex justify-content-center align-items-center"><p class="form-title">Contactează-ne!</p></div>
+        <div class="container content-container mt-5 pt-5">
+
+          <div class="container form-box bg-dark d-flex m-0 p-0 flex-grow-1 flex-column flex-lg-row">
+
+            <div class="divider-1"><div class="row align-items-center"><p class="form-title">Contactează-ne!</p></div></div>
+            
+            <div class="container divider-2 d-flex flex-column">
+
+              <div class="row-3 first-row">
+                <div class="form-group ps-3 pe-3 pt-3">
+                  <label class="label-text" for="name">Numele</label>
+                  <input type="name" class="form-control" id="name" name="Numele:" placeholder="Mihai">
+                </div>
+              </div>
+              <div class="row-3">
+                <div class="form-group ps-3 pe-3 pt-3">
+                  <label class="label-text" for="name">Email</label>
+                  <input type="email" class="form-control" id="email" name="Email:" placeholder="email.text@gmail.com">
+                </div>
+              </div>
+
+              <div class="row-5">
+                <div class="form-group ps-3 pe-3 pt-3 d-flex flex-column">
+                  <label class="label-text" for="reason">Motivul contactării</label>
+                  <textarea name="Motivul contactării:" id="reason" rows="20"></textarea>
+                </div>
+              </div>
+
+              <div class="row-1 d-flex justify-content-center pt-5">
+                <button type="submit" class="btn btn-lg btn-success submit-btn">Submit</button>
+              </div>
+
             </div>
-            <form action="https://formspree.io/f/xknekldj" method="POST" class="divider-2 form d-flex flex-column">
 
-              <div class="form-group row d-flex justify-content-center align-items-center">
-                <label for="name">Numele</label>
-                <input type="nume" class="form-control" id="name" name="Numele:" placeholder="Mihai Test">
-              </div>
-              <div class="form-group row d-flex justify-content-center align-items-center">
-                <label for="email">Email-ul</label>
-                <input type="email" class="form-control" id="email" name="Email:" placeholder="email.text@gmail.com">
-              </div>
-              <div class="form-group row d-flex justify-content-center align-items-center">
-                <label for="reason">Motivul contactării</label>
-                <textarea class="form-control" id="reason" name="Motivul contactării:" rows="5"></textarea>
-              </div>
-
-              <div class="row d-flex justify-content-center align-items-center"><button type="submit" class="btn btn-primary">Submit</button></div>
-
-            </div>
           </div>
         </div>
       </div>
