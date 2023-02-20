@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/about.css">
-    <title>Despre Noi</title>
+    <link rel="stylesheet" href="/css/contact.css">
+    <title>Home</title>
 </head>
 <body>
     <header>
@@ -20,13 +20,13 @@
                 <div class="collapse navbar-collapse justify-content-end" id="nav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="/index.html" class="nav-link" aria-current="page">Acasă</a>
+                            <a href="/index.html" class="nav-link active">Acasă</a>
                         </li>
                         <li class="nav-item ms-md-5 me-md-5">
                             <a href="#" class="nav-link">Servicii</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">Despre</a>
+                            <a href="/about.html" class="nav-link">Despre</a>
                         </li>
                     </ul>
                 </div>
@@ -35,50 +35,34 @@
     </header>
 
     <main>
-        <div class="container">
-            <!-- Despre compania noastra -->
-            
-            <div class="row mb-4"><p class="administrators-title">Despre firma noastră</p></div>
-            
-            <div class="about-us d-flex row flex-column flex-lg-row align-items-center align-items-lg-start">
-                <div class="img-about col">
-                    <div class="overlay"></div>
-                    <div class="image"></div>
-                </div>
-                <div class="text col ms-lg-5">
-                    TerraCycle este o firmă de excercițiu, care are ca scop colectarea, reciclarea și îmbunătățirea mediului înconjurător într-o manieră modernă.
-                </div>
+      <div class="main-container">
+        <div class="overlay-image"></div>
+        <div class="container content-container d-flex justify-content-center align-items-center flex-column">
+          <div class="container form-box bg-dark d-flex justify-content-center align-items-center d-flex flex-row">
+            <div class="divider-1 d-flex flex-column">
+              <div class="row d-flex justify-content-center align-items-center"><p class="form-title">Contactează-ne!</p></div>
             </div>
-        </div>
+            <form action="https://formspree.io/f/xknekldj" method="POST" class="divider-2 form d-flex flex-column">
 
-        <div class="container">
-            <!-- Administratorii -->
+              <div class="form-group row d-flex justify-content-center align-items-center">
+                <label for="name">Numele</label>
+                <input type="nume" class="form-control" id="name" name="Numele:" placeholder="Mihai Test">
+              </div>
+              <div class="form-group row d-flex justify-content-center align-items-center">
+                <label for="email">Email-ul</label>
+                <input type="email" class="form-control" id="email" name="Email:" placeholder="email.text@gmail.com">
+              </div>
+              <div class="form-group row d-flex justify-content-center align-items-center">
+                <label for="reason">Motivul contactării</label>
+                <textarea class="form-control" id="reason" name="Motivul contactării:" rows="5"></textarea>
+              </div>
 
-            <div class="row mb-4"><p class="administrators-title">Administratorii firmei</p></div>
-            
-            <div class="administrators row">
-                <div class="profile col d-flex align-items-center flex-column flex-nowrap">
-                    <div class="icon row"></div>
-                    <div class="name mt-2 row"><p>Ciubotaru Maria</p></div>
-                </div>
-                <div class="profile col d-flex align-items-center flex-column flex-nowrap">
-                    <div class="icon row"></div>
-                    <div class="name mt-2 row"><p>Mazniuc Petru</p></div>
-                </div>
-                <div class="profile col d-flex align-items-center flex-column flex-nowrap">
-                    <div class="icon row"></div>
-                    <div class="name mt-2 row"><p>Moisuc Teodora</p></div>
-                </div>
-                <div class="profile col d-flex align-items-center flex-column flex-nowrap">
-                    <div class="icon row"></div>
-                    <div class="name mt-2 row"><p>Nistoreanu Maria</p></div>
-                </div>
-                <div class="profile col d-flex align-items-center flex-column flex-nowrap">
-                    <div class="icon row"></div>
-                    <div class="name mt-2 row"><p>Scafaru Bianca</p></div>
-                </div>
+              <div class="row d-flex justify-content-center align-items-center"><button type="submit" class="btn btn-primary">Submit</button></div>
+
             </div>
+          </div>
         </div>
+      </div>
     </main>
 
     <footer class="text-center text-lg-start bg-light">
@@ -129,15 +113,15 @@
                   </p>
 
                   <p>
+                    <a href="/about.html" class="useful-link text-reset">Despre</a>
+                  </p>
+
+                  <p>
                     <a href="/blog.html" class="useful-link text-reset">Blog</a>
                   </p>
 
                   <p>
                     <a href="#" class="useful-link text-reset">Produse</a>
-                  </p>
-
-                  <p>
-                    <a href="/contact.html" class="useful-link text-reset">Asistență</a>
                   </p>
 
                 </div>
