@@ -55,6 +55,11 @@ body
     color: var(--font-color-light-green);
 }
 
+.introduction-text
+{
+    text-indent: 3rem;
+}
+
 .content-text
 {
     font-size: 2.5rem;
@@ -127,11 +132,11 @@ body
 
 .icon
 {
-    width: 4rem;
-    height: 4rem;
+    width: 4.5rem;
+    height: 4.5rem;
     background-color: gray;
     border-radius: 100%;
-    background-image: url(/img/User.png);
+    background-image: url(/img/articles/Authors/Sava.webp);
     background-position: center;
     background-size: cover;
 }

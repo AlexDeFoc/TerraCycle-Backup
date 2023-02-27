@@ -1,1 +1,4 @@
-1.Products.html -> Terracycle title now get you to home
+1. Modified all text for blog and articles
+2. Add 2nd admin pic in about.html
+3. Changed the name of the "pamant.html..." to "sol"
+4. Fixed all link and urls

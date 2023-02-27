@@ -93,13 +93,19 @@ body
 
 .icon
 {
-    width: 20rem;
-    height: 20rem;
+    width: 21rem;
+    height: 21rem;
     background-color: gray;
     border-radius: 100%;
     background-image: url(/img/User.png);
     background-position: center;
     background-size: cover;
+}
+
+.icon-2
+{
+    background-image: url(/img/administrators/Pentru.webp);
+    border: .3rem solid gray;
 }
 
 .name
